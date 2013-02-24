@@ -11,4 +11,3 @@ val map=io.Source.stdin.getLines.map(line => {
 Console.println(map.mkString(","))
 Console.println("first one!")
 Console.println("hey there world args are %s %s".format(args(0), args(1)))
-Console.println("what else??")
